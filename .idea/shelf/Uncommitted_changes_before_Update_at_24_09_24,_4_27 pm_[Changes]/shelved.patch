@@ -1,0 +1,15 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># eVerse\nA complete mobile application of EV users.\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 093d0d2e3de0919a4b48c81a44b948b34aaa47ec)
++++ b/README.md	(date 1727175437515)
+@@ -1,2 +1,1 @@
+-# eVerse
+-A complete mobile application of EV users.
++# eVerse_Service
+\ No newline at end of file
