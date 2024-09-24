@@ -1,1 +1,2 @@
-# eVerse_Service
+# eVerse
+A complete mobile application of EV users.
