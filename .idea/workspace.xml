@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c8dd1c2-901f-4c50-ab73-78176287c04a" name="Changes" comment="JWT Filter done">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/EvApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/config/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/controllers/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/controllers/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/models/AuthenticationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/models/AuthenticationResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/models/RegisterRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/models/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/service/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vishal/eVerse/service/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vishal/eVerse/EvApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9c8dd1c2-901f-4c50-ab73-78176287c04a" name="Changes" comment="JWT Filter done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,12 +34,12 @@
     &quot;assignee&quot;: &quot;Vishal-781&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EV-Universe/eVerse_Service.git",
-    "accountId": "27e4fe7e-712f-4b1f-ad57-17bb500265e4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EV-Universe/eVerse_Service.git&quot;,
+    &quot;accountId&quot;: &quot;27e4fe7e-712f-4b1f-ad57-17bb500265e4&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -89,7 +70,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.EVerseApplication.executor": "Debug",
+    "Spring Boot.EVerseApplication.executor": "Run",
     "Spring Boot.EvApplication.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "backend__vishal",
@@ -307,7 +288,7 @@
       <workItem from="1727002005646" duration="138000" />
       <workItem from="1727002190598" duration="3617000" />
       <workItem from="1727018748496" duration="11187000" />
-      <workItem from="1727172314219" duration="2358000" />
+      <workItem from="1727172314219" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Done">
       <option name="closed" value="true" />
@@ -357,18 +338,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727173492106</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JWT Filter done">
+      <option name="closed" value="true" />
+      <created>1727174818813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727174818813</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JWT Filter done">
+      <option name="closed" value="true" />
+      <created>1727174960358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727174960358</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="6cd95667-d30e-4ba7-aec2-e80d921e7de8" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -402,11 +394,6 @@
     </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="6cd95667-d30e-4ba7-aec2-e80d921e7de8">
-          <value>
-            <State />
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State>
