@@ -12,4 +12,3 @@ spring:
         database : POSTGRESQL
         database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-
