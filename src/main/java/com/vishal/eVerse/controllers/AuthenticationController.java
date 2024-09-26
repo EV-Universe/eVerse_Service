@@ -5,6 +5,7 @@ import com.vishal.eVerse.models.AuthenticationResponse;
 import com.vishal.eVerse.models.RegisterRequest;
 import com.vishal.eVerse.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -33,4 +34,5 @@ public class AuthenticationController{
         System.out.println("Request: " + request);
         return authenticationService.authenticate(request);
     }
+
 }

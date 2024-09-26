@@ -31,7 +31,7 @@ public class AuthenticationService {
                 .role(Role.USER)
                 .build();
         userRepository.save(user);
-        var token = jwtService.generateTokenFromUsername(user);
+        var token = jwtService.generateToken(user);
         return AuthenticationResponse.builder()
                 .token(token)
                 .build();
@@ -51,7 +51,7 @@ public class AuthenticationService {
         }
         var user = userRepository.findByEmail(request.getEmail())
                 .orElseThrow();
-        var token = jwtService.generateTokenFromUsername(user);
+        var token = jwtService.generateToken(user);
         return ResponseEntity.ok(AuthenticationResponse.builder()
                 .token(token)
                 .build());
