@@ -1,5 +1,6 @@
 package com.vishal.eVerse.models;
 
+import com.vishal.eVerse.models.user.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

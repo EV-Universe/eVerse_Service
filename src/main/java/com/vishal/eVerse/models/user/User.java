@@ -1,4 +1,4 @@
-package com.vishal.eVerse.models;
+package com.vishal.eVerse.models.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

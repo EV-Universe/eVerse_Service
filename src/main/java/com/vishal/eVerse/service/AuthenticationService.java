@@ -2,6 +2,8 @@ package com.vishal.eVerse.service;
 
 
 import com.vishal.eVerse.models.*;
+import com.vishal.eVerse.models.user.Role;
+import com.vishal.eVerse.models.user.User;
 import com.vishal.eVerse.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

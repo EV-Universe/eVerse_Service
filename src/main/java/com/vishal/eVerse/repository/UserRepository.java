@@ -1,6 +1,6 @@
 package com.vishal.eVerse.repository;
 
-import com.vishal.eVerse.models.User;
+import com.vishal.eVerse.models.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
