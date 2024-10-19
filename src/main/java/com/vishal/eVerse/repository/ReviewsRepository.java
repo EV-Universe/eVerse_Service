@@ -24,5 +24,4 @@ public interface ReviewsRepository extends JpaRepository<Review, Integer> {
       where s.id = :id\s
       """)
     List<Review> findAllReviewsByStationId(Integer id);
-    Optional<Review> findByReviewId(String reviewId);
 }

@@ -20,10 +20,12 @@ public class Review {
     private Double stars;
     private String comment;
 
+    // This is many-to-one relationship between the Review and User entities.
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
 
+    // This is many-to-one relationship between the Review and EvStations entities.
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "station_id")
     private EvStations station;

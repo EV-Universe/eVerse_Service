@@ -13,7 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class EvStationsController {
     private final EvStationsService evStationsService;
-
     @GetMapping("/all")
     public ResponseEntity<List<EvStations>> getAllStations() {
         return evStationsService.getAllStations();
@@ -35,4 +34,11 @@ public class EvStationsController {
         return evStationsService.getStationById(id);
     }
 
+    @GetMapping("/city/{city}")
+    public ResponseEntity<List<EvStations>> getStationsByCity(
+        @PathVariable
+        String city
+    ){
+        return evStationsService.getStationsByCity(city);
+    }
 }
