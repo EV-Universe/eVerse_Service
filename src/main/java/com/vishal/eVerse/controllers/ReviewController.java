@@ -1,6 +1,6 @@
 package com.vishal.eVerse.controllers;
 
-import com.vishal.eVerse.models.evStations.Review;
+import com.vishal.eVerse.models.reviews.Review;
 import com.vishal.eVerse.service.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

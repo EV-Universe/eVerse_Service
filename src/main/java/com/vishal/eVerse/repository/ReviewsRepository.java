@@ -1,12 +1,11 @@
 package com.vishal.eVerse.repository;
 
-import com.vishal.eVerse.models.evStations.Review;
+import com.vishal.eVerse.models.reviews.Review;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Optional;
 
 @Repository
 public interface ReviewsRepository extends JpaRepository<Review, Integer> {

@@ -1,5 +1,6 @@
-package com.vishal.eVerse.models.evStations;
+package com.vishal.eVerse.models.reviews;
 
+import com.vishal.eVerse.models.evStations.EvStations;
 import com.vishal.eVerse.models.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

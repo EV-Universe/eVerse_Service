@@ -1,6 +1,6 @@
 package com.vishal.eVerse.service;
 
-import com.vishal.eVerse.models.evStations.Review;
+import com.vishal.eVerse.models.reviews.Review;
 import com.vishal.eVerse.repository.ReviewsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +14,7 @@ public class ReviewService {
     private final ReviewsRepository reviewsRepository;
 
     public ResponseEntity<?> addReview(Review review){
+
         return ResponseEntity.ok(reviewsRepository.save(review));
     }
 
