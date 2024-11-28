@@ -1,6 +1,8 @@
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/eversedb
+        url: jdbc:postgresql://${DATABASE_HOST:localhost}:${DATABASE_PORT:5432}/${DATABASE_NAME:eversedb}
+        username: ${DATABASE_USER:postgres}
+        password: ${DATABASE_PASSWORD:password}
         driver-class-name: org.postgresql.Driver
     jpa:
         hibernate:
